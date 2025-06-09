@@ -1,0 +1,27 @@
+# Core dependencies
+fastapi==0.115.5
+uvicorn[standard]==0.34.0
+pydantic==2.10.3
+python-dotenv==1.0.1
+
+# LangChain and LangGraph
+langchain-core==0.3.26
+langchain-anthropic==0.3.0
+langgraph==0.2.60
+langgraph-checkpoint==2.0.9
+
+# Anthropic SDK (for direct API calls)
+anthropic==0.42.0
+
+# Async support
+httpx==0.28.1
+anyio==4.7.0
+
+# Monitoring and logging
+python-json-logger==3.2.1
+
+# Redis (for future state management)
+redis==5.2.1
+
+# Environment and config
+python-multipart==0.0.18
